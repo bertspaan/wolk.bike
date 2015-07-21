@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Main styles
+   ========================================================================== */
+
+body {
+  font-family: "Open Sans";
+  background-color: black;
+  padding: 20px 0;
+}
+
+body, a, a:visited {
+  color: #eee;
+}
+
+header {
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  padding: 10px;
+  border-bottom-width: 3px;
+  border-bottom-color: #eee;
+  border-bottom-style: solid;
+}
+
+img {
+  width: 100%;
+}
+
+/* Classes
+   ========================================================================== */
+
+.photo {
+  margin: 60px 0;
+}
